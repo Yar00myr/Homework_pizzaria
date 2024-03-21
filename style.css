@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1990bbd0; /* Світлий колір фону */
+    color: #f6f6f6; /* Темний колір тексту */
+}
+
+h1 {
+    color: #555; /* Темно-сірий колір для заголовків */
+    margin-left: 43%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #0e82b8; /* Дещо світліше за основний фон */
+    border-radius: 8px; /* Закруглені кути */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Тінь для підсилення ефекту */
+    transition: background-color 0.3s ease; /* Плавне перехід кольору при наведенні курсора */
+}
+
+li:hover {
+    background-color: #73cdd7; /* Світлий колір при наведенні курсора */
+}

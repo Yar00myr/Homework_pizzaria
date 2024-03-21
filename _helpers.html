@@ -1,0 +1,10 @@
+{% extends "index.html" %}
+
+{% block content %}
+    <h1>Мої хобі</h1>
+    <ul>
+    {% for hobby in hobbies %}
+        <li>{{ hobby }}</li>
+    {% endfor %}
+    </ul>
+{% endblock %}
